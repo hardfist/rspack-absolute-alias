@@ -5,13 +5,13 @@ var __webpack_modules__ = {
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-var _mock_b = __webpack_require__("./src/mock_b.js");
-console.log('result:', _mock_b.result);
+var _mock_a = __webpack_require__("./src/mock_a.js");
+console.log("result:", _mock_a.result);
 __webpack_require__.el("./src/render.js").then(__webpack_require__.bind(__webpack_require__, "./src/render.js")).then(__webpack_require__.ir).then((exports1)=>{
     exports1.render();
 });
 },
-"./src/mock_b.js": function (module, exports, __webpack_require__) {
+"./src/mock_a.js": function (module, exports, __webpack_require__) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -22,7 +22,7 @@ Object.defineProperty(exports, "result", {
         return result;
     }
 });
-const result = 'b';
+const result = 'a';
 },
 
 }

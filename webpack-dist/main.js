@@ -393,9 +393,9 @@ var __webpack_exports__ = {};
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Users_yangjian_project_rspack_repro_src_mock_a_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/mock_a.js */ "./src/mock_b.js");
+/* harmony import */ var _mock_a_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mock_a.js */ "./src/mock_b.js");
 
-console.log('result:', _Users_yangjian_project_rspack_repro_src_mock_a_js__WEBPACK_IMPORTED_MODULE_0__.result);
+console.log("result:", _mock_a_js__WEBPACK_IMPORTED_MODULE_0__.result);
 __webpack_require__.e(/*! import() */ "src_render_js").then(__webpack_require__.bind(__webpack_require__, /*! ./render */ "./src/render.js")).then((exports) => {
   exports.render();
 });
