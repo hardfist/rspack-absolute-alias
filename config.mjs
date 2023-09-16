@@ -35,6 +35,9 @@ const config = {
   },
   experiments: {
     css: true,
+    rspackFuture: {
+      newResolver:true
+    }
   },
   resolve: {
     alias: {
